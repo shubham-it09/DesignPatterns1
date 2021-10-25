@@ -14,7 +14,7 @@ import java.util.List;
 public class DemoTest extends BaseTest{
     WebDriver driver;
     TravelHomePage travelHomePage;
-    @BeforeTest
+  //  @BeforeTest
     public void setup()
     {
         driver = initializeDriver();
@@ -65,7 +65,7 @@ public class DemoTest extends BaseTest{
 
     }
 
-    @AfterTest
+    //@AfterTest
     public void tearDown()
     {
       driver.quit();
